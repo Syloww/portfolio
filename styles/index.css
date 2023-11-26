@@ -1,14 +1,14 @@
 @font-face {
     font-family: titre;
-    src: url(../fonts/CaviarDreams.ttf);
+    src: url(./fonts/CaviarDreams.ttf);
 }
 @font-face {
     font-family: titregras;
-    src: url(../fonts/CaviarDreams_Bold.ttf);
+    src: url(./fonts/CaviarDreams_Bold.ttf);
 }
 @font-face {
     font-family: titreitalic;
-    src: url(../fonts/CaviarDreams_Italic.ttf);
+    src: url(./fonts/CaviarDreams_Italic.ttf);
 }
 body {
     margin: 0;
