@@ -192,7 +192,7 @@ main {
 .card-inner2 {
     width: inherit;
     height: inherit;
-    background-image: url(/images/Design\ sans\ titre\ \(1\).png);
+    background-image: url(../images/banniere.png);
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
@@ -203,7 +203,7 @@ main {
 .card-inner3 {
     width: inherit;
     height: inherit;
-    background-image: url(./images/capture.png);
+    background-image: url(../images/capture.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -215,7 +215,7 @@ main {
 .card-inner4 {
     width: inherit;
     height: inherit;
-    background-image: url(/images/Capture\ d\'écran\ 2024-01-15\ 101250.png);
+    background-image: url(./images/Capture\ d\'écran\ 2024-01-15\ 101250.png);
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
