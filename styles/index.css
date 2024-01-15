@@ -1,11 +1,11 @@
 @font-face {
     font-family: CaviarDreams;
-    src: url(/fonts/CaviarDreams.ttf);
+    src: url(../fonts/CaviarDreams.ttf);
 }
 
 @font-face {
     font-family: CaviarDreamsBold;
-    src: url(/fonts/CaviarDreams_Bold.ttf);
+    src: url(../fonts/CaviarDreams_Bold.ttf);
 }
 
 html {
@@ -203,7 +203,7 @@ main {
 .card-inner3 {
     width: inherit;
     height: inherit;
-    background-image: url(/images/Capture\ d\'écran\ 2024-01-15\ 101225.png);
+    background-image: url(../images/Capture\ d\'écran\ 2024-01-15\ 101225.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
