@@ -45,13 +45,18 @@ header {
     display: flex;
     justify-content: space-between;
     margin-top: 90px;
-    position: sticky;
-    top: 0;
 }
 
 span {
     color: #FFF;
     font-weight: bold;
+}
+.chapitre{
+    font-family: CaviarDreamsBold;
+    color: #FFF;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
 }
 /* ---- particles.js container ---- */
 #particles-js {
@@ -242,6 +247,12 @@ main {
     right: -25px;
     animation-name: move-down1;
 }
+
+iframe{
+    margin-top: 40px;
+    width: 800px;
+    height: 500px;
+}
 /* ----------------------------------------------------- */
 /* -------------------- FOOTER ------------------------- */
 /* ----------------------------------------------------- */
@@ -255,13 +266,10 @@ footer{
     justify-content: center;
     display: flex;
 }
-.contact{
-    font-family: CaviarDreamsBold;
-    color: #FFF;
-    padding: 20px;
+.reseau{
     text-align: center;
-    font-size: 20px;
 }
+
 
 
 @keyframes move-up6 {
