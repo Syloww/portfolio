@@ -2,7 +2,7 @@ particlesJS(
     "particles-js", {
          "particles": 
          { "number": 
-         { "value": 300, "density": { "enable": true, "value_area": 800 } },
+         { "value": 400, "density": { "enable": true, "value_area": 800 } },
           "color": { "value": "#ffffff" },
            "shape": { 
                 "type": "circle", 
