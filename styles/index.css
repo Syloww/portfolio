@@ -155,7 +155,7 @@ main {
 .bio_citation2 {
     padding: 40px 0px 0px 40px;
     width: 400px;
-    color: rgb(109, 109, 109);
+    color: rgb(177, 177, 177);
     font-size: 17px;
 }
 
@@ -279,10 +279,21 @@ footer {
 }
 
 .reseau {
+    font-family: CaviarDreamsBold;
+    color: #FFF;
+    padding: 20px;
     text-align: center;
+    font-size: 20px;
 }
-
-
+.mention{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+.footer_mention{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 @keyframes move-up6 {
     to {
