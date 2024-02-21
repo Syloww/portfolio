@@ -87,10 +87,10 @@ span {
 }
 
 .lien {
-    padding: 10px;
+    padding: 12px 7px 12px 7px;
     font-family: CaviarDreams;
     margin-left: 40px;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(109, 109, 109);
     text-decoration: none;
     font-weight: bold;
