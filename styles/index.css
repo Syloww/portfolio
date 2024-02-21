@@ -426,6 +426,9 @@ footer {
     .card7 {
         display: none;
     }
+    .circle{
+        display: none;
+    }
 
     .card2 {
         margin-left: 10px;
