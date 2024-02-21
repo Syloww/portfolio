@@ -1,9 +1,10 @@
-.spoiler{
+.spoiler {
     background-color: #FFF;
     color: #000;
     padding: 10px;
     font-style: italic;
 }
+
 @font-face {
     font-family: CaviarDreams;
     src: url(../fonts/CaviarDreams.ttf);
@@ -57,13 +58,15 @@ span {
     color: #FFF;
     font-weight: bold;
 }
-.chapitre{
+
+.chapitre {
     font-family: CaviarDreamsBold;
     color: #FFF;
     padding: 20px;
     text-align: left;
     font-size: 20px;
 }
+
 /* ---- particles.js container ---- */
 #particles-js {
     position: fixed;
@@ -78,22 +81,26 @@ span {
     background-position: 50% 50%;
 }
 
-.lienresp{
+.lienresp {
     display: flex;
     flex-wrap: wrap;
 }
+
 .lien {
+    padding: 10px;
     font-family: CaviarDreams;
     margin-left: 40px;
     font-size: 25px;
     color: rgb(109, 109, 109);
     text-decoration: none;
     font-weight: bold;
-    transition: 0.4s;
+    border-radius: 30px;
+    transition: 0.5s;
 }
-
-.lien:hover {
-    color: #FFF;
+.lien:hover{
+    background-color: #FFF;
+    color: #000;
+    border-radius: 30px;
 }
 
 main {
@@ -178,6 +185,7 @@ main {
     transition: all 0.2s;
     position: relative;
 }
+
 .card7 {
     margin-left: 90px;
     width: 300px;
@@ -249,25 +257,28 @@ main {
     animation-name: move-down1;
 }
 
-iframe{
+iframe {
     margin-top: 40px;
     width: 800px;
     height: 500px;
 }
+
 /* ----------------------------------------------------- */
 /* -------------------- FOOTER ------------------------- */
 /* ----------------------------------------------------- */
 
-footer{
+footer {
     padding-top: 100px;
     display: flex;
     flex-direction: column;
 }
-.footer_reseau{
+
+.footer_reseau {
     justify-content: center;
     display: flex;
 }
-.reseau{
+
+.reseau {
     text-align: center;
 }
 
@@ -334,37 +345,46 @@ footer{
 
 
 @media only screen and (max-width: 450px) {
-    body{
+    body {
         overflow-x: hidden;
     }
-    .lien{
+
+    .lien {
         font-size: 10px;
     }
-    .bio{
+
+    .bio {
         font-size: 10px;
     }
-    .bio_citation{
+
+    .bio_citation {
         font-size: 14px;
     }
-    .bio_citation2{
+
+    .bio_citation2 {
         font-size: 11px;
         width: 180px;
     }
+
     #particles-js {
         display: none;
     }
+
     .circle {
         display: none;
     }
-    .box1{
+
+    .box1 {
         align-items: center;
         display: flex;
         flex-direction: column;
     }
+
     .card {
         width: 100%;
         height: 250px;
     }
+
     .card7 {
         margin-top: 10px;
         width: 100%;
@@ -372,6 +392,7 @@ footer{
         transition: all 0.2s;
         position: relative;
     }
+
     .card2 {
         margin-left: 10px;
         width: 90px;
