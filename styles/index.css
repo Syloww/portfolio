@@ -425,7 +425,6 @@ footer {
 
     .card7 {
         display: none;
-
     }
 
     .card2 {
@@ -433,6 +432,9 @@ footer {
         width: 90px;
         height: 250px;
         background-position: center;
+    }
+    .bio_lien{
+        font-size: 10px;
     }
     .reseau{
         display: none;

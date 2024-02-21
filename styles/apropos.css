@@ -322,12 +322,19 @@ footer {
     }
 }
 
-
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 700px) {
     body {
         overflow-x: hidden;
     }
-
+    .spoiler{
+        font-size: 7px;
+    }
+    .profil {
+        padding: 40px 0px 10px 40px;
+    }
+    .pp{
+        width: 30px;
+    }
     .lien {
         font-size: 10px;
     }
@@ -337,11 +344,16 @@ footer {
     }
 
     .bio_citation {
-        font-size: 14px;
+        font-size: 10px;
     }
-
+    .card-inner {
+        width: inherit;
+        height: inherit;
+    }
     .bio_citation2 {
+        color: #FFF;
         font-size: 11px;
+        padding: 10px 0px 0px 40px;
         width: 180px;
     }
 
@@ -349,9 +361,7 @@ footer {
         display: none;
     }
 
-    .circle {
-        display: none;
-    }
+
 
     .box1 {
         align-items: center;
@@ -365,11 +375,7 @@ footer {
     }
 
     .card7 {
-        margin-top: 10px;
-        width: 100%;
-        height: 400px;
-        transition: all 0.2s;
-        position: relative;
+        display: none;
     }
 
     .card2 {
@@ -377,5 +383,18 @@ footer {
         width: 90px;
         height: 250px;
         background-position: center;
+    }
+    .bio_lien{
+        font-size: 10px;
+    }
+    .reseau{
+        display: none;
+    }
+
+    .footer_lien{
+        font-size: 9px;
+    }
+    .footer_mention{
+        font-size: 9px;
     }
 }
