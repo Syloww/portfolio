@@ -1,0 +1,376 @@
+.spoiler {
+    background-color: #FFF;
+    color: #000;
+    padding: 10px;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: CaviarDreams;
+    src: url(../fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: CaviarDreamsBold;
+    src: url(../fonts/CaviarDreamsBold.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #8f54a0 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 0px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #8f54a0;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+span {
+    color: #FFF;
+    font-weight: bold;
+}
+
+.chapitre {
+    font-family: CaviarDreamsBold;
+    color: #FFF;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -80;
+    background-size: 20%;
+    background-position: 50% 50%;
+}
+
+.lienresp {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lien {
+    padding: 10px;
+    font-family: CaviarDreams;
+    margin-left: 40px;
+    font-size: 25px;
+    color: rgb(109, 109, 109);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.lien:hover{
+    background-color: #FFF;
+    color: #000;
+    border-radius: 30px;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.reseau {
+    margin-right: 30px;
+}
+
+.profil_reseau {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reseau_icon {
+    margin-right: 20px;
+}
+
+.profil {
+    text-align: left;
+    align-items: center;
+    padding: 40px;
+    display: flex;
+}
+
+.pp {
+    border-radius: 100px;
+    width: 70px;
+}
+
+.bio {
+    font-family: CaviarDreams;
+    color: #FFF;
+    margin-left: 20px;
+}
+
+.bio_descri {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(109, 109, 109);
+}
+
+.bio_citation {
+    font-family: CaviarDreamsBold;
+    padding: 0px 0px 0px 40px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.bio_citation2 {
+    padding: 40px 0px 0px 40px;
+    width: 400px;
+    color: rgb(177, 177, 177);
+    font-size: 17px;
+}
+
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 100%;
+    height: 400px;
+    transition: all 0.2s;
+    position: relative;
+}
+
+.card7 {
+    margin-left: 90px;
+    width: 300px;
+    height: 400px;
+    transition: all 0.2s;
+    position: relative;
+}
+
+.card-inner {
+    width: inherit;
+    height: inherit;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+.card-inner2 {
+    width: inherit;
+    height: inherit;
+    background-image: url(../images/banniere.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: repeating-linear-gradient(48deg, #77c2ff 0%, #ff0099 100%);
+    border-radius: 35% 30% 75% 30% / 49% 30% 70% 51%;
+    position: absolute;
+    animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+
+.circle:nth-child(1) {
+    top: -25px;
+    left: -25px;
+}
+
+.circle:nth-child(2) {
+    bottom: -25px;
+    right: -25px;
+    animation-name: move-down1;
+}
+
+/* ----------------------------------------------------- */
+/* -------------------- FOOTER ------------------------- */
+/* ----------------------------------------------------- */
+
+footer {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_reseau {
+    justify-content: center;
+    display: flex;
+}
+
+.reseau {
+    font-family: CaviarDreamsBold;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.mention{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+.footer_mention{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes move-up6 {
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes move-down1 {
+    to {
+        transform: translateY(10px);
+    }
+}
+
+/* ----------------------------------------------------- */
+/* -------------------- FOCUS ANIM -------------------- */
+/* ----------------------------------------------------- */
+
+.focus-in-contract-bck {
+    -webkit-animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes focus-in-contract-bck {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(300px);
+        transform: translateZ(300px);
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateZ(12px);
+        transform: translateZ(12px);
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+
+@keyframes focus-in-contract-bck {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(300px);
+        transform: translateZ(300px);
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateZ(12px);
+        transform: translateZ(12px);
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .lien {
+        font-size: 10px;
+    }
+
+    .bio {
+        font-size: 10px;
+    }
+
+    .bio_citation {
+        font-size: 14px;
+    }
+
+    .bio_citation2 {
+        font-size: 11px;
+        width: 180px;
+    }
+
+    #particles-js {
+        display: none;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .box1 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        height: 250px;
+    }
+
+    .card7 {
+        margin-top: 10px;
+        width: 100%;
+        height: 400px;
+        transition: all 0.2s;
+        position: relative;
+    }
+
+    .card2 {
+        margin-left: 10px;
+        width: 90px;
+        height: 250px;
+        background-position: center;
+    }
+}
