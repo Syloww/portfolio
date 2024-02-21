@@ -1,2 +1,3 @@
 User-agent: *
+Disallow : mentionlegal.html
 Sitemap: https://sylow.vercel.app/sitemap.xml
