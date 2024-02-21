@@ -108,6 +108,7 @@ main {
 }
 
 .reseau {
+    text-align: center;
     margin-right: 30px;
 }
 
@@ -274,8 +275,8 @@ footer {
 }
 
 .footer_reseau {
-    justify-content: center;
     display: flex;
+    justify-content: center;
 }
 
 .reseau {
@@ -285,10 +286,14 @@ footer {
     text-align: center;
     font-size: 20px;
 }
-.mention{
+.footer_flex{
     display: flex;
     justify-content: space-evenly;
     padding-top: 60px;
+}
+.footer_lien{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .footer_mention{
     color: #FFF;
