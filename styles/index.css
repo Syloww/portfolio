@@ -371,7 +371,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 700px) {
     body {
         overflow-x: hidden;
     }
@@ -393,7 +393,7 @@ footer {
     }
 
     .bio_citation {
-        font-size: 14px;
+        font-size: 10px;
     }
     .card-inner {
         width: inherit;
@@ -436,5 +436,12 @@ footer {
     }
     .reseau{
         display: none;
+    }
+
+    .footer_lien{
+        font-size: 9px;
+    }
+    .footer_mention{
+        font-size: 9px;
     }
 }
