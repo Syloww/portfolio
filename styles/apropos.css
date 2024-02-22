@@ -433,8 +433,8 @@ footer {
 	margin-bottom: 0;
 }
 .timeline-item:nth-child(odd){
-    padding-right: calc(50% + 30px);
-	text-align: right;
+    padding-left: calc(50% + 30px);
+	text-align: left;
 }
 .timeline-item:nth-child(even){
     padding-left: calc(50% + 30px);
