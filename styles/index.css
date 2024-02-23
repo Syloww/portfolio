@@ -19,25 +19,26 @@ html {
     scroll-behavior: smooth;
 }
 
+/* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {
     scrollbar-width: auto;
-    scrollbar-color: #8f54a0 #ffffff;
+    scrollbar-color: #8f54a0 #161616;
 }
 
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-    width: 0px;
+    width: 10px;
 }
 
 *::-webkit-scrollbar-track {
-    background: #ffffff;
+    background: #161616;
 }
 
 *::-webkit-scrollbar-thumb {
     background-color: #8f54a0;
     border-radius: 10px;
-    border: 3px solid #ffffff;
+    border: 3px solid #161616;
 }
 
 body {
@@ -52,6 +53,12 @@ header {
     display: flex;
     justify-content: center;
     margin-top: 90px;
+
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 4;
 }
 
 span {
@@ -97,7 +104,8 @@ span {
     border-radius: 30px;
     transition: 0.5s;
 }
-.lien:hover{
+
+.lien:hover {
     background-color: #FFF;
     color: #000;
     border-radius: 30px;
@@ -160,11 +168,12 @@ main {
     color: rgb(177, 177, 177);
     font-size: 17px;
 }
+
 .bio_lien {
     text-decoration: none;
     padding: 10px 20px 10px 20px;
     color: #FFF;
-    background: linear-gradient(90deg, rgb(84, 161, 255) 0%, rgba(250,157,255,1) 26%, rgb(232, 93, 215) 65%, rgb(129, 131, 247) 95%);
+    background: linear-gradient(90deg, rgb(84, 161, 255) 0%, rgba(250, 157, 255, 1) 26%, rgb(232, 93, 215) 65%, rgb(129, 131, 247) 95%);
     border-radius: 30px;
     font-size: 17px;
     position: absolute;
@@ -297,16 +306,19 @@ footer {
     text-align: center;
     font-size: 20px;
 }
-.footer_flex{
+
+.footer_flex {
     display: flex;
     justify-content: space-evenly;
     padding-top: 60px;
 }
-.footer_lien{
+
+.footer_lien {
     color: #FFF;
     font-family: Arial, Helvetica, sans-serif;
 }
-.footer_mention{
+
+.footer_mention {
     color: #FFF;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -322,19 +334,24 @@ footer {
         transform: translateY(10px);
     }
 }
+
 @media only screen and (max-width: 700px) {
     body {
         overflow-x: hidden;
     }
-    .spoiler{
+
+    .spoiler {
         font-size: 7px;
     }
+
     .profil {
         padding: 40px 0px 10px 40px;
     }
-    .pp{
+
+    .pp {
         width: 30px;
     }
+
     .lien {
         font-size: 10px;
     }
@@ -346,10 +363,12 @@ footer {
     .bio_citation {
         font-size: 10px;
     }
+
     .card-inner {
         width: inherit;
         height: inherit;
     }
+
     .bio_citation2 {
         color: #FFF;
         font-size: 11px;
@@ -381,7 +400,8 @@ footer {
     .card7 {
         display: none;
     }
-    .circle{
+
+    .circle {
         display: none;
     }
 
@@ -391,17 +411,20 @@ footer {
         height: 250px;
         background-position: center;
     }
-    .bio_lien{
+
+    .bio_lien {
         font-size: 10px;
     }
-    .reseau{
+
+    .reseau {
         display: none;
     }
 
-    .footer_lien{
+    .footer_lien {
         font-size: 9px;
     }
-    .footer_mention{
+
+    .footer_mention {
         font-size: 9px;
     }
 }
