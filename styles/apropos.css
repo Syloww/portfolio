@@ -62,9 +62,10 @@ span {
 .chapitre {
     font-family: CaviarDreamsBold;
     color: #FFF;
-    padding: 20px;
-    text-align: left;
-    font-size: 20px;
+    margin-top: 40px;
+    padding: 40px;
+    text-align: center;
+    font-size: 40px;
 }
 
 /* ---- particles.js container ---- */
