@@ -438,6 +438,67 @@ footer {
     .footer_mention {
         font-size: 9px;
     }
+
+    .chapitre {
+        font-family: CaviarDreamsBold;
+        color: #FFF;
+        font-size: 20px;
+    }
+    
+    .separation_boutton {
+        text-decoration: none;
+        font-size: 10px;
+        color: #FFF;
+        padding: 2px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 20px;
+    }
+
+    .cv_container {
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        box-shadow: 0 0 10px rgba(122, 122, 122, 0.749);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+    }
+    
+    .cv_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .cv_pp {
+        border-radius: 100%;
+        width: 80px;
+    }
+    
+    .cv_titre {
+        font-size: 17px;
+        color: #FFF;
+    }
+    
+    .cv_soustitre {
+        font-size: 12px;
+    }
+    
+    .cv_detail_container {
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 7px;
+    }
+    
+    .cv_detail {
+        font-size: 11px;
+        font-family: CaviarDreams;
+        color: #FFF;
+    }
 }
 
 
