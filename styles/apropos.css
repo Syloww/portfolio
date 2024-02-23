@@ -63,7 +63,8 @@ span {
     padding: 90px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    gap: 70px;
+    justify-content: center;
 }
 .chapitre {
     font-family: CaviarDreamsBold;
@@ -73,11 +74,10 @@ span {
 .separation_boutton{
     text-decoration: none;
     color: #FFF;
-    padding: 20px;
+    padding: 10px;
     border-style: solid;
     border-width: 1px;
     border-radius: 20px;
-    transition: 0.4s;
 }
 
 /* ---- particles.js container ---- */
@@ -264,9 +264,16 @@ main {
     font-size: 30px;
     color: #FFF;
 }
+.cv_soustitre{
+    font-family: CaviarDreamsBold;
+    font-size: 25px;
+    color: #FFF; 
+}
 .cv_detail_container{
+    margin-left: 20px;
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 .cv_detail{
     font-family: CaviarDreams;
