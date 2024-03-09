@@ -338,6 +338,8 @@ footer {
 @media only screen and (max-width: 700px) {
     body {
         overflow-x: hidden;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
     .spoiler {
@@ -398,6 +400,7 @@ footer {
     }
 
     .card7 {
+        margin-left: 0px;
         display: none;
     }
 
