@@ -382,7 +382,7 @@ footer {
     }
 
     .spoiler {
-        font-size: 7px;
+        font-size: 11px;
     }
 
     .profil {
@@ -394,15 +394,15 @@ footer {
     }
 
     .lien {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .bio {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .bio_citation {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .card-inner {
@@ -448,7 +448,7 @@ footer {
     }
 
     .bio_lien {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .reseau {
@@ -456,11 +456,11 @@ footer {
     }
 
     .footer_lien {
-        font-size: 9px;
+        font-size: 11px;
     }
 
     .footer_mention {
-        font-size: 9px;
+        font-size: 11px;
     }
 
     .chapitre {
@@ -471,7 +471,7 @@ footer {
     
     .separation_boutton {
         text-decoration: none;
-        font-size: 10px;
+        font-size: 11px;
         color: #FFF;
         padding: 2px;
         border-style: solid;
