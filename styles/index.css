@@ -27,13 +27,13 @@ html {
 
 #progress-value {
     display: block;
-    height: calc(100% - 15px);
-    width: calc(100% - 15px);
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
     background-color: #161616;
     border-radius: 50%;
     display: grid;
     place-items: center;
-    font-size: 35px;
+    font-size: 5px;
     color: #8f54a0;
 }
 
