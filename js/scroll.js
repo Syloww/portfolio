@@ -6,11 +6,7 @@ let calcScrollValue = () => {
         document.documentElement.scrollHeight -
         document.documentElement.clientHeight;
     let scrollValue = Math.round((pos * 100) / calcHeight);
-    if (pos >= 0) { // Modifier la condition ici
-        scrollProgress.style.display = "grid";
-    } else {
-        scrollProgress.style.display = "none";
-    }
+    scrollProgress.style.display = "grid"
     scrollProgress.addEventListener("click", () => {
         document.documentElement.scrollTop = 0;
     });
