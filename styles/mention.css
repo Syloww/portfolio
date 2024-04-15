@@ -91,7 +91,7 @@ span {
     font-family: CaviarDreams;
     margin-left: 40px;
     font-size: 22px;
-    color: rgb(109, 109, 109);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
     border-radius: 30px;
@@ -99,11 +99,10 @@ span {
 }
 
 .lien:hover {
-    background-color: #FFF;
+    background-color: #ffffff;
     color: #000;
     border-radius: 30px;
 }
-
 main {
     margin-top: 50px;
 }
