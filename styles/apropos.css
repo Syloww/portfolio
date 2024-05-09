@@ -271,9 +271,12 @@ main {
 
 
 .cv_container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.cv_contour{
     padding: 30px;
-    flex-direction: column;
     box-shadow: 0 0 10px rgba(122, 122, 122, 0.749);
     backdrop-filter: blur(10px);
     border-radius: 20px;
