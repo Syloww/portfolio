@@ -60,7 +60,7 @@ html {
 }
 
 body {
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(10, 10, 10);
     overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 90px;
@@ -83,13 +83,22 @@ span {
     color: #FFF;
     font-weight: bold;
 }
-
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+h1{
+    font-family: CaviarDreamsBold;
+    padding: 20px;
+    color: #FFF; 
+}
 .chapitre {
     font-family: CaviarDreamsBold;
     color: #FFF;
     padding: 20px;
     text-align: left;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 40px;
 }
 
 /* ---- particles.js container ---- */
@@ -172,39 +181,34 @@ main {
     color: rgb(109, 109, 109);
 }
 
-.bio_citation {
+.txt {
     font-family: CaviarDreamsBold;
     padding: 0px 0px 0px 40px;
     color: #FFF;
     font-weight: bold;
-    font-size: 30px;
+    padding: 20px;
+    font-size: 20px;
 }
 
-.bio_citation2 {
-    padding: 40px 0px 0px 40px;
-    width: 400px;
-    color: rgb(177, 177, 177);
-    font-size: 17px;
+.crea {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
-
-.bio_lien {
-    text-decoration: none;
-    padding: 10px 20px 10px 20px;
-    color: #FFF;
-    background: linear-gradient(90deg, rgb(84, 161, 255) 0%, rgba(250, 157, 255, 1) 26%, rgb(232, 93, 215) 65%, rgb(129, 131, 247) 95%);
+.crea > :nth-child(2) {
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 2; /* Positionnement sur la deuxième ligne */
+}
+.bulle{
+    background-color: #000000ad;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #FFF;
     border-radius: 30px;
-    font-size: 17px;
-    position: absolute;
-    right: 10px;
-}
-.crea{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 .vitrine{
     width: 500px;
-    border-width: 3px;
+    border-width: 2px;
     border-style: solid;
     border-color: #FFF;
     border-radius: 30px;
@@ -302,13 +306,6 @@ footer {
         height: inherit;
     }
 
-    .bio_citation2 {
-        color: #FFF;
-        font-size: 11px;
-        padding: 10px 0px 0px 40px;
-        width: 180px;
-    }
-
     #particles-js {
         display: none;
     }
@@ -322,10 +319,6 @@ footer {
     .crea{
         display: flex;
         flex-direction: column;
-    }
-
-    .bio_lien {
-        font-size: 10px;
     }
 
     .reseau {
