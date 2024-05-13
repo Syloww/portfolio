@@ -70,7 +70,7 @@ body {
 header {
     display: flex;
     justify-content: center;
-    margin-top: 90px;
+    margin-top: 60px;
 
     backdrop-filter: blur(2px);
     border-radius: 20px;
@@ -194,15 +194,16 @@ main {
     display: grid;
     gap: 40px;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 200px;
 }
 .crea > :nth-child(2) {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2; /* Positionnement sur la deuxième ligne */
-    background-color: #e5ff00;
+    background-color: #ffffff;
 
 }
 .bulle{
-    background-color: #ff0000;
+    background-color: #ffffff;
     width: auto;
     height: 200px;
     border-width: 2px;

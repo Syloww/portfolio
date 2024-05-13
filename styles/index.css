@@ -70,7 +70,7 @@ body {
 header {
     display: flex;
     justify-content: center;
-    margin-top: 90px;
+    margin-top: 60px;
 
     backdrop-filter: blur(2px);
     border-radius: 20px;
