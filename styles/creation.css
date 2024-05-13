@@ -137,7 +137,13 @@ h1{
     color: #000;
     border-radius: 30px;
 }
-
+.crea_site_lien{
+    color: #FFF;
+    font-weight: bold;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
 main {
     margin-top: 50px;
 }
@@ -252,6 +258,22 @@ iframe {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(/images/crea/clip1.png);
+}
+/* ----------------------------------------------------- */
+.velo1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/bugatti/bugatti1.png);
+}
+.velo2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/bugatti/bugatti2.png);
+}
+.velo3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/bugatti/bugatti3.png);
 }
 /* ----------------------------------------------------- */
 /* -------------------- FOOTER ------------------------- */
