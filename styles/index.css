@@ -188,17 +188,6 @@ main {
     font-size: 17px;
 }
 
-.bio_lien {
-    text-decoration: none;
-    padding: 10px 20px 10px 20px;
-    color: #FFF;
-    background: linear-gradient(90deg, rgb(84, 161, 255) 0%, rgba(250, 157, 255, 1) 26%, rgb(232, 93, 215) 65%, rgb(129, 131, 247) 95%);
-    border-radius: 30px;
-    font-size: 17px;
-    position: absolute;
-    right: 10px;
-}
-
 
 .box1 {
     display: flex;
