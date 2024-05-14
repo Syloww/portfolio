@@ -354,7 +354,10 @@ footer {
         font-size: 10px;
     }
     .chapitre{
-        font-size: 24px;
+        font-size: 18px;
+    }
+    .bulle{
+        width: 150px;
     }
     .txt{
         padding: 10px;
