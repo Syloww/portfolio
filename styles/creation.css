@@ -275,6 +275,75 @@ iframe {
     background-image: url(/images/bugatti/bugatti3.png);
 }
 /* ----------------------------------------------------- */
+.crea_frs {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 200px;
+}
+.frs1{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/frs/voiturevintage.jpg);
+}
+.frs2{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/frs/bmwbleu1.jpg);
+}
+
+.frs3{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/frs/bmwbleu.jpg);
+}
+.frs4{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/frs/P1166027-min.jpg);
+}
+.frs5{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/frs/P1166036-min.jpg);
+}
+.frs6{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/frs/P1166057-min.jpg);
+}
+.frs7{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/frs/P1166149-min.jpg);
+}
+
+.frs8{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/frs/P1166167-min.jpg);
+}
+.frs9{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/images/frs/P1166224-min.jpg);
+}
+.frs10{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/images/frs/P1166248-min.jpg);
+}
+/* ----------------------------------------------------- */
 /* -------------------- FOOTER ------------------------- */
 /* ----------------------------------------------------- */
 
