@@ -228,20 +228,15 @@ iframe {
     width: 100%;
     height: 500px;
 }
-.site1{
+.mockup1{
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/images/crea/TBC_home.png);
+    background-image: url(/images/aroundyou.png);
 }
-.site2{
+.mockup2{
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/images/crea/TBC_galerie.png);
-}
-.site3{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(/images/crea/TBC\ avis.png);
+    background-image: url(/images/najma.png);
 }
 .clip1{
     background-size: cover;
