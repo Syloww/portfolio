@@ -232,11 +232,37 @@ iframe {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(/images/aroundyou.png);
+    transition: 0.4s;
+}
+.mockup1:hover{
+    transform: scale(1.1,1.1);
 }
 .mockup2{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(/images/najma.png);
+    transition: 0.4s;
+}
+.mockup2:hover{
+    transform: scale(1.1,1.1);
+}
+.mockup3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/coca.png);
+    transition: 0.4s;
+}
+.mockup3:hover{
+    transform: scale(1.1,1.1);
+}
+.mockup4{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/fusion.png);
+    transition: 0.4s;
+}
+.mockup4:hover{
+    transform: scale(1.1,1.1);
 }
 .clip1{
     background-size: cover;
@@ -281,43 +307,70 @@ iframe {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(/images/frs/voiturevintage.jpg);
+    transition: 0.4s;
+}
+.frs1:hover{
+    transform: scale(1.1,1.1);
 }
 .frs2{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(/images/frs/bmwbleu1.jpg);
+    transition: 0.4s;
 }
-
+.frs2:hover{
+    transform: scale(1.1,1.1);
+}
 .frs3{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(/images/frs/bmwbleu.jpg);
+    transition: 0.4s;
+}
+.frs3:hover{
+    transform: scale(1.1,1.1);
 }
 .frs4{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(/images/frs/P1166027-min.jpg);
+    transition: 0.4s;
+}
+.frs4:hover{
+    transform: scale(1.1,1.1);
 }
 .frs5{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(/images/frs/P1166036-min.jpg);
+    transition: 0.4s;
+}
+.frs5:hover{
+    transform: scale(1.1,1.1);
 }
 .frs6{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(/images/frs/P1166057-min.jpg);
+    transition: 0.4s;
+}
+.frs6:hover{
+    transform: scale(1.1,1.1);
 }
 .frs7{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(/images/frs/P1166149-min.jpg);
+    transition: 0.4s;
+}
+.frs7:hover{
+    transform: scale(1.1,1.1);
 }
 
 .frs8{
@@ -325,18 +378,30 @@ iframe {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(/images/frs/P1166167-min.jpg);
+    transition: 0.4s;
+}
+.frs8:hover{
+    transform: scale(1.1,1.1);
 }
 .frs9{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(/images/frs/P1166224-min.jpg);
+    transition: 0.4s;
+}
+.frs9:hover{
+    transform: scale(1.1,1.1);
 }
 .frs10{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(/images/frs/P1166248-min.jpg);
+    transition: 0.4s;
+}
+.frs10:hover{
+    transform: scale(1.1,1.1);
 }
 /* ----------------------------------------------------- */
 /* -------------------- FOOTER ------------------------- */
