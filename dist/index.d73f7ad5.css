@@ -784,4 +784,7 @@ main {
     .lien_menu {
         font-size: 24px;
     }
+    .content__title{
+        overflow: hidden !important;
+    }
 }
