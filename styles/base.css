@@ -12,6 +12,9 @@
 	--color-link-hover: rgb(227 226 220 / 100%);
 	--page-padding: 1.5rem;
 }
+*{
+	overflow-x: hidden !important;
+}
 body {
 	margin: 0;
 	color: var(--color-text);
