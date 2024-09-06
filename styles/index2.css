@@ -86,15 +86,6 @@ header>nav {
     color: #ffd52e;
 }
 
-.verticaltxt {
-    z-index: 100;
-    top: 50%;
-    padding: 50px;
-    position: fixed;
-    right: 0;
-    writing-mode: vertical-lr;
-}
-
 #menu {
     position: fixed;
     z-index: 101;
