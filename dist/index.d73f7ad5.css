@@ -52,7 +52,9 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-
+a{
+    cursor: none !important ;
+}
 .image-container {
     position: relative;
     width: 100%;

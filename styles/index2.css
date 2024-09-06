@@ -7,7 +7,9 @@
     font-family: txt;
     src: url(/fonts/Bion-BookCond.ttf);
 }
-
+a{
+    cursor: none;
+}
 .loader {
     background-color: #19261a;
     position: fixed;
